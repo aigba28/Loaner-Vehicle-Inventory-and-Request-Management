@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5666d603933d4210a598f15efaba1008" label="Vehicle Tracker" max_length="40" name="x_218201_lva_vehicle_tracker" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Actual Return Date" max_length="40" name="actualreturndate" type="glide_date"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Return Notes" max_length="1000" name="returnnotes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Return Vehicle Status" max_length="40" name="returnvehiclestatus" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Returned in Good Condition" sequence="0" value="returned in good condition"/>
+                <element inactive_on_update="false" label="Returned with Minor Issues" sequence="1" value="returned with minor issues"/>
+                <element inactive_on_update="false" label="Returned with Major Issues" sequence="2" value="returned with major issues"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="sent for servicing" label="Vehicle Status" mandatory="true" max_length="40" name="u_choice_4" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Pending Release" sequence="0" value="pending release"/>
+                <element inactive_on_update="false" label="Out On Field" sequence="1" value="out on field"/>
+                <element inactive_on_update="false" label="Returned for Inspection" sequence="2" value="returned for inspection"/>
+                <element inactive_on_update="false" label="Sent for Servicing" sequence="3" value="sent for servicing"/>
+                <element inactive_on_update="false" label="Returned to Warehouse" sequence="4" value="returned to warehouse"/>
+                <element inactive_on_update="false" label="Decommissioned" sequence="5" value="decommissioned"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Tracker Status" mandatory="true" max_length="40" name="u_choice_5" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="0" value="open"/>
+                <element inactive_on_update="false" label="Closed" sequence="1" value="closed"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="2" value="cancelled"/>
+            </choice>
+        </element>
+        <element label="Activities" max_length="80" name="u_field_name_15" read_only="true" type="field_name"/>
+        <element attributes="edge_encryption_enabled=true" label="Date Requested" max_length="40" name="u_glide_date_8" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Expected Return Date" max_length="40" name="u_glide_date_9" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Request Number" max_length="32" name="u_reference_1" reference="sc_req_item" type="reference"/>
+        <element attributes="encode_utf8=false" label="Vehicle" mandatory="true" max_length="32" name="u_reference_3" reference="x_218201_lva_loaner_vehicle_request_and_inventory" reference_floats="true" type="reference"/>
+        <element attributes="encode_utf8=false" label="Assigned to" max_length="32" name="u_reference_6" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Location" max_length="32" name="u_reference_7" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Delivery Information" max_length="1000" name="u_string_10" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional Comments" max_length="1000" name="u_string_11" type="string"/>
+        <index name="index">
+            <element name="u_reference_1"/>
+        </index>
+        <index name="index2">
+            <element name="u_reference_3"/>
+        </index>
+        <index name="index3">
+            <element name="u_reference_6"/>
+        </index>
+        <index name="index4">
+            <element name="u_reference_7"/>
+        </index>
+    </element>
+</database>

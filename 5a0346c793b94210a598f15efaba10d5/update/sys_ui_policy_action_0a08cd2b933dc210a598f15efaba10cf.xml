@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>false</disabled>
+        <field>actualreturndate</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-02 06:31:00</sys_created_on>
+        <sys_id>0a08cd2b933dc210a598f15efaba10cf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>actualreturndate</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_218201_lva">5a0346c793b94210a598f15efaba10d5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">5a0346c793b94210a598f15efaba10d5</sys_scope>
+        <sys_update_name>sys_ui_policy_action_0a08cd2b933dc210a598f15efaba10cf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-03 23:21:13</sys_updated_on>
+        <table>x_218201_lva_vehicle_tracker</table>
+        <ui_policy display_value="Return Inpection UI Policy 2">4208cd2b933dc210a598f15efaba10cc</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

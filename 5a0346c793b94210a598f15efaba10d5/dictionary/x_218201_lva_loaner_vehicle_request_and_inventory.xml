@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e4c4524f93f94210a598f15efaba1067" label="Loaner Vehicle Catalog" max_length="40" name="x_218201_lva_loaner_vehicle_request_and_inventory" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" mandatory="true" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vehicle Description" max_length="1000" name="u_addcomments_5" type="string"/>
+        <element attributes="encode_utf8=false" label="Images" max_length="32" name="u_images_2" reference="db_image" type="reference"/>
+        <element label="Image" max_length="40" name="u_image_6" type="user_image"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" mandatory="true" max_length="40" name="u_status_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Available" sequence="0" value="available"/>
+                <element inactive_on_update="false" label="Maintenance" sequence="0" value="Maintenance"/>
+                <element inactive_on_update="false" label="Out on Field" sequence="0" value="Out on Field"/>
+                <element inactive_on_update="false" label="Unavailable" sequence="1" value="unavailable"/>
+                <element inactive_on_update="false" label="Decomissioned" sequence="2" value="decomissioned"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Vehicle Model" mandatory="true" max_length="40" name="u_vehiclemodel_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vehicle Year" mandatory="true" max_length="40" name="u_vehicleyear_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vehicle Make" mandatory="true" max_length="40" name="u_vm_1" type="string"/>
+        <index name="index">
+            <element name="u_images_2"/>
+        </index>
+    </element>
+</database>

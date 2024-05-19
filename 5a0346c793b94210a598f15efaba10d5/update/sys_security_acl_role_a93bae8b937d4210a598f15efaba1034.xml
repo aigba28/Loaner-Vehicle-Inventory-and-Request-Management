@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-01 00:27:22</sys_created_on>
+        <sys_id>a93bae8b937d4210a598f15efaba1034</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_218201_lva_vehicle_servicing.Vehicle_Service_User</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_218201_lva">5a0346c793b94210a598f15efaba10d5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">5a0346c793b94210a598f15efaba10d5</sys_scope>
+        <sys_security_acl display_value="x_218201_lva_vehicle_servicing">e13bae8b937d4210a598f15efaba1025</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_a93bae8b937d4210a598f15efaba1034</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-01 00:34:29</sys_updated_on>
+        <sys_user_role display_value="Vehicle_Service_User" name="Vehicle_Service_User">addca2cb937d4210a598f15efaba1050</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="4140f64393bd4210a598f15efaba1088" sys_domain="global" table="x_218201_lva_vehicle_servicing" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-01 00:49:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1140f64393bd4210a598f15efaba108b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_218201_lva_vehicle_servicing" name="x_218201_lva_vehicle_servicing" sys_domain="global" view="Default view">4140f64393bd4210a598f15efaba1088</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_218201_lva_vehicle_servicing" sys_domain="global" view="Default view">8f1de64f937d4210a598f15efaba10e3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-01 00:49:28</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_218201_lva_vehicle_servicing</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-01 00:49:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4140f64393bd4210a598f15efaba1088</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_218201_lva_vehicle_servicing</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_218201_lva">5a0346c793b94210a598f15efaba10d5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Loaner Vehicle Request and Inventory">5a0346c793b94210a598f15efaba10d5</sys_scope>
+            <sys_update_name>sys_ui_form_sections_4140f64393bd4210a598f15efaba1088</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-01 00:49:27</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

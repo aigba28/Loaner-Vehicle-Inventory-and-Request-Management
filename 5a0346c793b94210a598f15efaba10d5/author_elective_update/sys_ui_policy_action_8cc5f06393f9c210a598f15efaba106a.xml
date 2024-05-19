@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>false</disabled>
+        <field>actualreturndate</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-02 05:11:08</sys_created_on>
+        <sys_id>8cc5f06393f9c210a598f15efaba106a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>actualreturndate</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_218201_lva">5a0346c793b94210a598f15efaba10d5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">5a0346c793b94210a598f15efaba10d5</sys_scope>
+        <sys_update_name>sys_ui_policy_action_8cc5f06393f9c210a598f15efaba106a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-02 05:11:08</sys_updated_on>
+        <table>x_218201_lva_vehicle_tracker</table>
+        <ui_policy display_value="Vehicle Status is Returned for Inspection UI POlicy">40c5b06393f9c210a598f15efaba10df</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory">5a0346c793b94210a598f15efaba10d5</application>
+        <file_path/>
+        <instance_id>29bfff2fdb0e7194f697684e139619c5</instance_id>
+        <instance_name>dev197954</instance_name>
+        <name>sys_ui_policy_action_8cc5f06393f9c210a598f15efaba106a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>false</disabled><field>actualreturndate</field><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-02 05:11:08</sys_created_on><sys_id>8cc5f06393f9c210a598f15efaba106a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>actualreturndate</sys_name><sys_package display_value="Loaner Vehicle Request and Inventory" source="x_218201_lva">5a0346c793b94210a598f15efaba10d5</sys_package><sys_policy/><sys_scope display_value="Loaner Vehicle Request and Inventory">5a0346c793b94210a598f15efaba10d5</sys_scope><sys_update_name>sys_ui_policy_action_8cc5f06393f9c210a598f15efaba106a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-02 05:11:08</sys_updated_on><table>x_218201_lva_vehicle_tracker</table><ui_policy display_value="Vehicle Status is Returned for Inspection UI POlicy">40c5b06393f9c210a598f15efaba10df</ui_policy><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>787471195</payload_hash>
+        <record_name>actualreturndate</record_name>
+        <reverted_from/>
+        <source>da038ac793b94210a598f15efaba1039</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-02 05:11:08</sys_created_on>
+        <sys_id>c4c5f06393f9c210a598f15efaba106d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f37b6a8aa0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-02 05:11:08</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>c8c5f0630df9c210679e7f173fac086c</update_guid>
+        <update_guid_history>c8c5f0630df9c210679e7f173fac086c:787471195</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-02 05:20:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>4b1a70a2ea3242a6adccbd068ad81101</sys_id>
+        <sys_metadata>8cc5f06393f9c210a598f15efaba106a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>actualreturndate</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_218201_lva">5a0346c793b94210a598f15efaba10d5</sys_package>
+        <sys_parent display_value="">40c5b06393f9c210a598f15efaba10df</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">5a0346c793b94210a598f15efaba10d5</sys_scope>
+        <sys_scope_delete display_value="">844dc13cbc8c4ab3971a9980f8b3b479</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_8cc5f06393f9c210a598f15efaba106a</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_8cc5f06393f9c210a598f15efaba106a">c4c5f06393f9c210a598f15efaba106d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-02 05:20:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
